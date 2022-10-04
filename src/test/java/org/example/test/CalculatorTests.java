@@ -17,7 +17,7 @@ public class CalculatorTests {
 
         //test empty expression
         input = " ";
-        assertEquals(3, Calculator.isValidExpression(input) );
+        assertEquals(1, Calculator.isValidExpression(input) );
 
         //test single value
         input = "3";
